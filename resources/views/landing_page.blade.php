@@ -196,8 +196,8 @@
                 <p>Brand tertinggi di OYO</p>
                 <a href="" class=""><i class="bi bi-arrow-right-circle-fill"></i> <span>Lihat Detail</span></a>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" >&#10094;</a>
+            <a class="next" >&#10095;</a>
         </div>
     </section>
 
@@ -232,6 +232,8 @@
                         <img src="{{
                             Vite::asset('resources/img/slide.png') }}" alt="">
                     </div>
+                    <a class="prev" >&#10094;</a>
+                    <a class="next" >&#10095;</a>
                 </div>
             </div>
         </div>
