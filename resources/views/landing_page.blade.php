@@ -58,11 +58,8 @@
             <h1>Membantu Menjalankan Operasi Bisnis Pariwisata Anda</h1>
             <p>GWA membantu mengoperasikan keseluruhan layanan hotel, menajadikan mitra lebih percaya diri dalam menjalankan bisnis.</p>
             <a href="" class="button">Konsultasikan Bisnis Saya<i class="bi bi-arrow-right"></i></a>
-            </div>
-            {{-- <div class="pic-up">
-                <img src="{{
-                    Vite::asset('resources/img/image 1.png') }}" alt="Gambar section-atas">
-            </div> --}}
+        </div>
+
     </section>
     </div>
 
