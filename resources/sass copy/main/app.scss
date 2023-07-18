@@ -187,21 +187,21 @@
         }
     }
     //intro
-    .sc-atas{
+    .section-about{
         padding: 80px;
         z-index: 1;
         position: absolute;
         margin-top: 96px;
-        svg{
-            position: absolute;
-            z-index: 1;
-            left: 0;
-            top:150px
-        }
-        .second{
-            left: 0;
-            top:450px
-        }
+        // svg{
+        //     position: absolute;
+        //     z-index: 1;
+        //     left: 0;
+        //     top:150px
+        // }
+        // .second{
+        //     left: 0;
+        //     top:450px
+        // }
         h1{
             color: #FFF;
             width: 550px;
@@ -233,7 +233,7 @@
         }
     }
     //Work overflow
-    .sc-tengah{
+    .section-overflow{
         padding: 50px;
         overflow: hidden;
         svg{
@@ -253,16 +253,16 @@
             font-weight: 600;
             line-height: 150%;
         }
-        .row-overflow{
+        .overflow-grid{
             display: flex;
             justify-content: space-around;
             z-index: 2;
-            .col{
+            .overflow-item{
                 margin-left: 30px;
                 overflow: hidden;
                 padding: 12px;
             }
-            .frame{
+            .overflow-icon{
                 border-radius: 80px;
                 background-color: #FFF;
                 width: 100px;
@@ -334,10 +334,10 @@
             margin-top: 20px;
             margin-bottom: 50px;
         }
-        .row-service{
+        .service-grid{
             display: flex;
             justify-content: space-around;
-            .service{
+            .service-item{
                 display: inline-block;
                 font-family: $font-family;
                 width: 355px;

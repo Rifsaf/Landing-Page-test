@@ -1,0 +1,54 @@
+// global yang sering berulang
+.button{
+    display: flex;
+    width: 404.7px;
+    height: 74px;
+    padding: 10px;
+    border-radius: 1000px;
+    background-color: $secondary-color;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-m{
+    display: flex;
+    width: 455px;
+    padding: 15px 10px;
+    border-radius: 9000px;
+    background: $secondary-color;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 125% */
+    }
+.button-s{
+    // display: flex;
+    // width: 150px;
+    // height: 48px;
+    // padding: 9.063px 31.72px;
+    // align-items: center;
+    // gap: 14.501px;
+    // border-radius: 54.378px;
+    // background: $secondary-color;
+    color: #000;
+    font-size: 17.22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 200px;
+    height: 48px;
+    padding: 9.063px 31.72px;
+    align-items: center;
+    gap: 14.501px;
+    flex-shrink: 0;
+    border-radius: 54.378px;
+    background-color: $secondary-color;
+    margin-top: 23px;
+
+}

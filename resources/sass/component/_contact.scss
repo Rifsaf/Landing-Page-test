@@ -1,0 +1,95 @@
+.s-contact{
+    .container{
+        position: relative;
+        img{
+            position: absolute;
+            left: 0;
+            top:5px;
+        }
+    }
+    .contact-inner{
+        display: flex;
+        // padding: 100px 200px;
+        justify-content: space-between;
+        // align-items: center;
+        gap: 90px;
+        // flex-shrink: 0;
+        .contact{
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-des{
+            align-self: stretch;
+            color: var(--black, #052925);
+            font-family: Montserrat;
+            width: 460px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 36px; /* 180% */
+            .stroke{
+                width: 141px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .contact-form{
+            width: 518px;
+            height: 500px;
+            flex-shrink: 0;
+            padding:40px 40px 29px 40px;
+            display: flex;
+            justify-content: center;
+            background-color: #F8F8F8;
+            border-radius: 20px;
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 3px;
+
+                .contact-form-row{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 29px;
+                    justify-content: center;
+                    align-items: center;
+                    label{
+                        align-self: stretch;
+                        color: var(--black, #052925);
+                        font-family: Outfit;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 25px; /* 147.059% */
+                        margin-bottom: 10px;
+                    }
+                }
+                a{
+                    margin-top: 6px;
+                    display: flex;
+                    width: 438px;
+                    padding: 15px 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    background-color: $secondary-color;
+                    border-radius: 9000px;
+
+                    color: #000;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 25px; /* 125% */
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+    }
+}

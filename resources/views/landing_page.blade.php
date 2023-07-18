@@ -37,18 +37,31 @@
         </div>
     </nav>
 
-    <!--Section Awal-->
+    <!--Section About-->
     <section class="container-sc bg-main">
-        <div class="sc-atas">
-            <svg xmlns="http://www.w3.org/2000/svg" width="814" height="161" viewBox="0 0 814 161" fill="none">
+        <div class="section-about">
+            {{-- <svg xmlns="http://www.w3.org/2000/svg"
+            width="814"
+            height="161"
+             viewBox="0 0 814 161"
+             fill="none">
                 <path d="M813.5 1C802.902 56.6169 638.067 209.954 454 143C269.933 76.0459 75.597 181.655 -1 143" stroke="white" stroke-opacity="0.3"/>
                 </svg>
-            <svg class="second" xmlns="http://www.w3.org/2000/svg" width="812" height="120" viewBox="0 0 812 120" fill="none">
+            <svg class="second" xmlns="http://www.w3.org/2000/svg"
+            width="812"
+            height="120"
+            viewBox="0 0 812 120"
+            fill="none">
                 <path d="M0 25.6865C0 25.6865 116.015 130.801 339 17.6864C490.769 -59.302 647.351 157.613 811.5 113.186" stroke="white" stroke-opacity="0.3"/>
                 </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="810" height="175" viewBox="0 0 810 175" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg"
+            width="810"
+            height="175"
+            viewBox="0 0 810 175"
+            fill="none">
                 <path d="M-1.5 151C-1.5 151 41.4996 241.664 261.5 63.0001C481.5 -115.664 741 166 809.5 0.5" stroke="white" stroke-opacity="0.3"/>
-                </svg>
+                </svg> --}}
+            {{-- SVG DIMASUKIN DICSSNYA --}}
             <div class="line-up">
                 <div class="line">
                     <hr>
@@ -58,6 +71,7 @@
             <h1>Membantu Menjalankan Operasi Bisnis Pariwisata Anda</h1>
             <p>GWA membantu mengoperasikan keseluruhan layanan hotel, menajadikan mitra lebih percaya diri dalam menjalankan bisnis.</p>
             <a href="" class="button">Konsultasikan Bisnis Saya<i class="bi bi-arrow-right"></i></a>
+            {{-- Section header --}}
         </div>
 
     </section>
@@ -65,8 +79,11 @@
 
     <!--Section Overflow-->
     <section class="container-sc">
-        <div class="sc-tengah">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1381" height="411" viewBox="0 0 1381 411" fill="none">
+        <div class="section-overflow">
+            <svg xmlns="http://www.w3.org/2000/svg"
+            width="1381"
+            height="411"
+             viewBox="0 0 1381 411" fill="none">
                 <path d="M0 335.577C234.691 496.317 370.026 342.468 468 335.577C565.974 328.687 657.148 340.539 825 360.5C992.852 380.461 1379 2 1379 2" stroke="#EEEEEE" stroke-width="3"/>
                 </svg>
             <div class="line-up">
@@ -76,33 +93,33 @@
                 <p>Our Workflow</p>
             </div>
             <h1>Proses Kerja Kami dalam Meningkatkan Kualitas Properti</h1>
-            <div class="row-overflow">
-                <div class="col first">
-                    <div class="frame">
+            <div class="overflow-grid first">
+                <div class="overflow-item">
+                    <div class="overflow-icon">
                         <img src="{{
                             Vite::asset('resources\img\Sec-2 (1).png') }}" alt="">
                     </div>
                     <p class="title">Tantangan</p>
                     <p>Setiap property memiliki tantangan tersendiri dan GWA sangat memahami hal tersebut.</p>
                 </div>
-                <div class="col second">
-                        <div class="frame">
+                <div class="overflow-item second">
+                        <div class="overflow-icon">
                             <img src="{{
                                 Vite::asset('resources\img\Sec-2 (2).png') }}" alt="">
                         </div>
                         <p  class="title">Rumusan</p>
                     <p>Setiap property memiliki tantangan tersendiri dan GWA sangat memahami hal tersebut</p>
                 </div>
-                <div class="col  third">
-                    <div class="frame third bg-bblue">
+                <div class="overflow-item third">
+                    <div class="overflow-icon third bg-bblue">
                         <img src="{{
                             Vite::asset('resources\img\Sec-2 (3).png') }}" alt="">
                     </div>
                     <p class="title">Goals</p>
                     <p>Dari rumusan masalah, kami memberikan respon cepat dan jalan keluar jangka pendek - menengah - panjang.</p>
                 </div>
-                <div class="col  fourth">
-                    <div class="frame">
+                <div class="overflow-item fourth">
+                    <div class="overflow-icon">
                         <img src="{{
                             Vite::asset('resources\img\Sec-2 (4).png') }}" alt="">
                     </div>
@@ -130,8 +147,8 @@
             </div>
             <h1>Apa Saja yang Bisa Kami Bantu ?</h1>
 
-            <div class="row-service">
-                <div class="service">
+            <div class="service-grid">
+                <div class="service-item">
                     <div class="service-icon">
                         <img src="{{
                             Vite::asset('resources/img/Sec-3.png') }}" alt="">
@@ -141,7 +158,7 @@
                     <a href="" class="button-s">Saya Tertarik<i class="bi bi-arrow-right"></i></a>
                 </div>
 
-                <div class="service">
+                <div class="service-item">
                     <div class="service-icon">
                         <img src="{{
                             Vite::asset('resources\img\Sec-3 (2).png') }}" alt="">
@@ -151,7 +168,7 @@
                     <a href="" class="button-s">Saya Tertarik<i class="bi bi-arrow-right"></i></a>
                 </div>
 
-                <div class="service">
+                <div class="service-item">
                     <div class="service-icon">
                         <img src="{{
                             Vite::asset('resources\img\Sec-3 (3).png') }}" alt="">
@@ -280,9 +297,14 @@
 
         </div>
         <div class="footer-content">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1398" height="218" viewBox="0 0 1398 218" fill="none">
+            {{-- <svg xmlns="http://www.w3.org/2000/svg"
+             width="1398"
+             height="218"
+             viewBox="0 0 1398 218"
+             fill="none">
                 <path d="M-1 1C-1 1 222.009 227.897 588.236 39.2792C845.184 -93.0573 1113.85 325.238 1397 271.141" stroke="white" stroke-opacity="0.3"/>
-                </svg>
+                </svg> --}}
+                {{-- Pake export bg difigma --}}
             <div class="row">
                 <div class="col">
                     <p>Halaman utama</p>
