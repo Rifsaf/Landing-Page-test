@@ -23,7 +23,7 @@
                             Vite::asset('resources/img/nav/logo.png') }}" alt="logo">
                             </a>
                             <img class="logo-layer" src="{{
-                                Vite::asset('resources/img/nav/logo-layer.png') }}" alt="logo">
+                                Vite::asset('resources/img/nav/logo-layer.png') }}"   alt="logo">
 
                             <a href="">Homepage</a>
                             <a href="">Tentang</a>
@@ -64,7 +64,7 @@
                 </div>
                </div>
                <div class="scroll">
-                <a href="">Scroll<i class="bi bi-arrow-right"></i></a>
+                <a href=""><span>Scroll</span><i class="bi bi-arrow-right"></i></a>
                </div>
             </div>
         </section>
@@ -72,6 +72,8 @@
         {{-- section-workflow --}}
         <section class="s-workflow">
             <div class="container section">
+                {{-- <img class="worl" src="{{
+                    Vite::asset('resources/img/workflow-vector.png') }}" alt="company-logo"> --}}
                 <div class="workflow-inner">
                     <div class="section-header">
                         <div class="line"><hr></div>
