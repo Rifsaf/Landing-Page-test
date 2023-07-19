@@ -14,7 +14,7 @@
     @vite('resources/sass/main/app.scss')
 </head>
 <body>
-    <div class="index">
+    <div class="main">
         <nav class="nav-bar bg-main">
             <div class="container">
                 <div class="navbar-head">
