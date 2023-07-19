@@ -29,11 +29,22 @@
    }
   }
   .container{
+    position: relative;
     background-color: $main-color;
     background-image: url('/resources/img/svg-hero.png');
     background-repeat:no-repeat;
     background-size: 100%;
     background-position: left;
+        .pic-up{
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 4;
+            img{
+                width: 610px;
+                height: 790px;
+            }
+        }
   }
 }
 .about-inner{

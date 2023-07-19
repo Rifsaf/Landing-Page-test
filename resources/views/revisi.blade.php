@@ -16,10 +16,6 @@
 <body>
     <div class="index">
         <nav class="nav-bar bg-main">
-            <div class="pic-up">
-                <img src="{{
-                    Vite::asset('resources/img/image 1.png') }}" alt="Gambar section-atas">
-            </div>
             <div class="container">
                 <div class="navbar-head">
                     <div class="navbar-logo-navs">
@@ -50,6 +46,10 @@
         {{-- Section-about --}}
         <section class="s-about">
             <div class="container section ">
+                <div class="pic-up">
+                    <img src="{{
+                        Vite::asset('resources/img/image 1.png') }}" alt="Gambar section-atas">
+                </div>
                <div class="about-inner ">
                 <div class="section-header">
                     <div class="line">
@@ -204,8 +204,6 @@
                         <img src="{{
                             Vite::asset('resources/img/slide.png') }}" alt="">
                     </div>
-                    <a class="prev" >&#10094;</a>
-                    <a class="next" >&#10095;</a>
                 </div>
                 <div class="testimonial-inner">
                     <div class="testimonial-review">
