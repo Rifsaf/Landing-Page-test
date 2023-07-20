@@ -3,13 +3,13 @@
     .main{
         width: 100%;
     }
-    .s-about::before{
-        content: "";
-       background: url(/resources/img/svg-hero.png) no-repeat;
-       background-size: contain;
-       background-position: left;
-       position: absolute;
-    }
+    // .s-about::before{
+    //     content: "";
+    //    background: url(/resources/img/svg-hero.png) no-repeat;
+    //    background-size: contain;
+    //    background-position: left;
+    //    position: absolute;
+    // }
     .s-about{
       color: #fff;
       .scroll{
@@ -261,19 +261,30 @@
         .swiper{
             height: 500px;
             .swiper-slide{
-                background-color: grey;
-                border-radius: 52;
+                background-image: url('/resources/img/slide-sectiom.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position:center;
+                border-radius: 52px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
-            .swiper-button-next .swiper-button-prev{
+            .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+                content: 'next';
+            }
+            .swiper-button-next:after, .swiper-button-prev:after {
+                font-family: swiper-icons;
+                font-size: var(--swiper-navigation-size);
+                text-transform: none!important;
+                letter-spacing: 0;
+                font-variant: initial;
+                line-height: 1;
                 padding: 16px;
+                width: 200px;
                 background-color: $secondary-color;
-                color: black;
-                font-weight: bold;
-                font-size: 18px;
-              }
+            }
+
 
         }
       }

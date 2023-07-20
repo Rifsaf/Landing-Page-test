@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="main">
-        <nav class="nav-bar bg-main">
+        <nav class="nav-bar">
             <div class="container">
                 <div class="navbar-head">
                     <div class="navbar-logo-navs">
@@ -186,7 +186,7 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                           <!-- Slides -->
-                          <div class="swiper-slide" style="background-image: url('/resource/img/slide-sectiom.png')"> </div>
+                          <div class="swiper-slide"></div>
                           <div class="swiper-slide">Slide 2</div>
                           <div class="swiper-slide">Slide 3</div>
                         </div>
