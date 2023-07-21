@@ -1,31 +1,69 @@
 
 
 .nav-bar{
-    padding: 0px 107px 0px 0px;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+     transition: 0.3s;
       .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+    &.blue{
+        background-color: $main-color;
+        .navbar-language{
+            a{
+                display: flex;
+                height: 52px;
+                padding: 0px 18px;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                background-color: #fff;
+                text-decoration: none;
+                color: #000;
+                border-radius: 10px;
+            }}
+            .navbar-dropdown a {
+                display: flex;
+                height: 52px;
+                padding: 0px 18px;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                background-color: #fff;
+                text-decoration: none;
+                color: #000;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+              }
+    }
+
 }
 .navbar-head{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 30px 61px 30px 61px;
+    padding: 30px 0px 30px 0px;
     align-items: center;
     z-index: 100;
     position: relative;
     .navbar-logo-navs{
         display: flex;
         align-items: center;
-        gap:40px;
-        a{
+        gap:60px;
+        .nav-menu{
+            display: flex;
+            align-items: center;
+            gap:40px;
+        }
+        .nav-menu-item{
             // font-size: 15px;
             // font-weight: 400;
-            margin-right: 20px;
+            // margin-right: 20px;
             text-decoration: none;
             color: white;
             gap:40px;
@@ -34,13 +72,11 @@
             line-height: 23px;
             letter-spacing: 0em;
             text-align: left;
+        }
+        .logo{
+            height: 50px;
+        }
 
-        }
-        .logo-layer{
-            position: absolute;
-            z-index: 2;
-            left: 114px;
-        }
     }
     .navbar-language{
         a{
@@ -54,6 +90,7 @@
             text-decoration: none;
             color: #fff;
             border-radius: 10px;
+            transition: 0.3s;
 
         }
     }
@@ -63,26 +100,32 @@
             min-width: 215px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             background-color: #15548D opacity($color: #00000018);
-            border-top-left-radius: 0px;
             z-index: 1;
     }
     .navbar-dropdown a {
-        float: none;
-        color: #fff;
-        padding: 0 16px;
+        display: flex;
+        height: 52px;
+        padding: 0px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        background-color: #fff;
         text-decoration: none;
-
-        display: block;
-        text-align: left;
+        color: #000;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+      }
+      .navbar-dropdown a:hover {
+       border-radius: 10px;
       }
     .navbar-language a:hover{
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
+        i{
+            transform: rotate(180deg);
+        }
     }
     .navbar-language:hover .navbar-dropdown {
         display: block;
-        border-radius: 0px;
       }
 }

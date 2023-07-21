@@ -4,18 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Outfit:wght@100;200;300;500;600;700&display=swap');
 
 // Global variables
-@import '/resources/sass/global/variables';
-@import 'resources/sass/global/button';
-@import '/resources/sass/global/container';
-@import 'resources/sass/global/input';
+@import '/resources/sass/global/utilities/variables';
+@import 'resources/sass/global/components/button';
+@import '/resources/sass/landing/utilities/container';
+@import 'resources/sass/global/components/input';
 //Layout
-@import '/resources/sass/layout/navbar';
-@import '/resources/sass/layout/footer';
+@import '/resources/sass/landing/layout/navbar';
+@import '/resources/sass/landing/layout/footer';
 //Component
 @import '/resources/sass/component/section-header';
 @import '/resources/sass/component/contact';
 //Page
-@import '/resources/sass/pages/landing-pages';
+@import '/resources/sass/landing/pages/homepage';
 
 @import "bootstrap-icons/font/bootstrap-icons.css";
     body{
