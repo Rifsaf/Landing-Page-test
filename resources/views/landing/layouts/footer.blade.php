@@ -1,5 +1,5 @@
 <footer class="s-footer">
-    <div class="container section">
+    <div class="container">
         <div class="footer-inner">
             <div class="footer-heading">
                 <img src="{{
@@ -40,11 +40,22 @@
                     <a href="">Pemberitahuan Privasi</a>
                     <a href="">Syarat dan Ketentuan</a>
                 </div>
-                <div class="footer-language">
-                    <img src="{{
-                        Vite::asset('resources/img/bhs.png') }} " alt="">
-                    <a>Bahasa Indonesia <img src="{{
-                        Vite::asset('resources/img/footer/arrow-down.svg') }}" alt=""></a>
+                <div class="footer-language" id="footer-language">
+                    <div class="footer-language-wrapper">
+                        <img class="footer-language-logo" src="{{
+                            Vite::asset('resources/img/bhs.png') }} " alt="">
+                        <div class="footer-language-button"><a href="">Bahasa Indonesia <img src="{{
+                            Vite::asset('resources/img/footer/arrow-down.svg') }}" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer-language-list">
+                        <ul>
+                            <li><a href="">Bahasa Indonesia</a></li>
+                            <li><a href="">Bahasa Indonesia</a></li>
+                            <li><a href="">Bahasa Indonesia</a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             <div class="copyright">
