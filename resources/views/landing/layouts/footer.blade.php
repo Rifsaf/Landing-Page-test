@@ -3,9 +3,7 @@
         <div class="footer-inner">
             <div class="footer-heading">
                 <img src="{{
-                    Vite::asset('resources/img/nav/logo.png') }}" alt="logo">
-                <img class="logo-layer"src="{{
-                    Vite::asset('resources/img/nav/logo-layer.png') }}" alt="logo">
+                    Vite::asset('resources/img/nav/logofix.png') }}" alt="logo">
             </div>
             <div class="footer-content">
                 <div class="footer-grid">

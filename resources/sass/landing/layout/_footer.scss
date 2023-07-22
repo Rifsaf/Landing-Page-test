@@ -9,11 +9,9 @@
         color: #fff;
         .footer-heading{
             position: relative;
-            .logo-layer{
-                position: absolute;
-                z-index: 2;
-                top:16px;
-                left: 50px;
+            img{
+                display: flex;
+                height: 50px;
             }
         }
         .footer-content{
