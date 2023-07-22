@@ -239,6 +239,7 @@
                         text-transform: capitalize;
                         flex-shrink: 0;
                     }
+
                     &-button{
                         display: flex;
                         width: 200px;
@@ -260,12 +261,13 @@
                     }
                    }
                 }
+                .medium-title{
+                    width: 220.851px !important;
+                }
 
             }
         }
     }
-
-
 
     //product-section
     .s-product{

@@ -104,7 +104,8 @@
                                 <p  class="service-item-icon-num">02</p>
                                 <img class="service-item-icon-logo" src="{{
                                     Vite::asset('resources\img\Sec-3 (2).png') }}" alt="">
-                                <p class="service-item-icon-title">Full Manage Service </p>
+                                <p class="service-item-icon-title
+                                medium-title">Full Manage Service </p>
                                 <a href="" class="service-item-icon-button">Saya Tertarik<i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
@@ -199,19 +200,21 @@
                             <p>Our Testimonials</p>
                             <h1>Yang Klien Kami katakan</h1>
                         </div>
-                        <div class="testimonial-review-text">
-                            <p><img src="{{
-                                Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
-                            <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
-                        </div>
-                        <div class="testimonial-review-company">
-                            <div class="testimonial-review-company-logo">
-                                <img src="{{
-                                    Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                        <div class="testimonial-item-slide-review">
+                            <div class="testimonial-review-text">
+                                <p><img src="{{
+                                    Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
                             </div>
-                            <div class="testimonial-review-company-name">
-                                <h3>Chaim Desmond</h3>
-                                <p>CEO of Yellow Hotel</p>
+                            <div class="testimonial-review-company">
+                                <div class="testimonial-review-company-logo">
+                                    <img src="{{
+                                        Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                </div>
+                                <div class="testimonial-review-company-name">
+                                    <h3>Chaim Desmond</h3>
+                                    <p>CEO of Yellow Hotel</p>
+                                </div>
                             </div>
                         </div>
                     </div>
