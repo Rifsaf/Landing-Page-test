@@ -135,7 +135,7 @@
                         </div>
                         <div id="carousel-project" class="carousel slide">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
+                              <div class="carousel-item p-2 active">
                                 <img src="{{
                                     Vite::asset('resources/img/slide-sectiom.png') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
@@ -146,10 +146,10 @@
                                 <div class="carousel-detail">
                                     <a class='carousel-detail-icon' href=""><img src="{{
                                         Vite::asset('resources/img/arrow-left.png') }}" alt=""></a>
-                                    <a class="carousel-detail-des" href="">See Detail</a></p>
+                                    <a class="carousel-detail-des" href="">Lihat Detail</a></p>
                                 </div>
                               </div>
-                              <div class="carousel-item">
+                              <div class="carousel-item p-2">
                                 <img src="{{
                                     Vite::asset('resources/img/slide-sectiom.png') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
@@ -160,10 +160,10 @@
                                 <div class="carousel-detail">
                                     <a class='carousel-detail-icon' href=""><img src="{{
                                         Vite::asset('resources/img/arrow-left.png') }}" alt=""></a>
-                                    <a class="carousel-detail-des" href="">See Detail</a></p>
+                                    <a class="carousel-detail-des" href="">Lihat Detail</a></p>
                                 </div>
                               </div>
-                              <div class="carousel-item">
+                              <div class="carousel-item p-2">
                                 <img src="{{
                                     Vite::asset('resources/img/slide-sectiom.png') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
@@ -174,7 +174,7 @@
                                 <div class="carousel-detail">
                                     <a class='carousel-detail-icon' href=""><img src="{{
                                         Vite::asset('resources/img/arrow-left.png') }}" alt=""></a>
-                                   <a class="carousel-detail-des" href="">See Detail</a></p>
+                                   <a class="carousel-detail-des" href="">Lihat Detail</a></p>
                                 </div>
                               </div>
                             </div>
@@ -200,8 +200,46 @@
                             <p>Our Testimonials</p>
                             <h1>Yang Klien Kami katakan</h1>
                         </div>
-                        <div class="testimonial-item-slide-review">
-                            <div class="testimonial-review-text">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="testimonial-review-text">
+                                    <p><img src="{{
+                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                                </div>
+                                <div class="testimonial-review-company">
+                                    <div class="testimonial-review-company-logo">
+                                        <img src="{{
+                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                    </div>
+                                    <div class="testimonial-review-company-name">
+                                        <h3>Chaim Desmond</h3>
+                                        <p>CEO of Yellow Hotel</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item ">
+                                <div class="testimonial-review-text">
+                                    <p><img src="{{
+                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                                </div>
+                                <div class="testimonial-review-company">
+                                    <div class="testimonial-review-company-logo">
+                                        <img src="{{
+                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                    </div>
+                                    <div class="testimonial-review-company-name">
+                                        <h3>Chaim Desmond</h3>
+                                        <p>CEO of Yellow Hotel</p>
+                                    </div>
+                                </div>
+
+                              </div>
+                            </div>
+                        </div>
+                            {{-- <div class="testimonial-review-text">
                                 <p><img src="{{
                                     Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
                                 <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
@@ -215,17 +253,17 @@
                                     <h3>Chaim Desmond</h3>
                                     <p>CEO of Yellow Hotel</p>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
-                    </div>
+
                     <div class="testimonial-item-slide">
-                        <div id="carousel-testimonial" class="carousel slide">
+                        <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
+                              <div class="carousel-item p-2 active">
                                 <img src="{{
                                     Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="...">
                               </div>
-                              <div class="carousel-item">
+                              <div class="carousel-item p-2">
                                 <img src="{{
                                      Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="...">
                               </div>

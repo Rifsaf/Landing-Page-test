@@ -10,8 +10,8 @@
                     <a class="nav-menu-item" href="">Homepage</a>
                     <a class="nav-menu-item" href="">Tentang</a>
                     <a class="nav-menu-item" href="">Halaman</a>
-                    <a class="nav-menu-item" href="">Daftar Hotel</a>
-                    <a class="nav-menu-item" href="">Bantuan</a>
+                    <a class="nav-menu-item wid" href="">Daftar Hotel</a>
+                    <a class="nav-menu-item wid" href="">Bantuan</a>
                    </div>
             </div>
             <div class="navbar-language">

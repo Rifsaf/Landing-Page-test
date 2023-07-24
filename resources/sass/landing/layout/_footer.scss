@@ -178,3 +178,13 @@
         }
     }
 }
+
+@media screen and (max-width:1024px){
+    .s-footer{
+        height:100%;
+        padding: 40px;
+        .footer-grid{
+            flex-wrap: wrap;
+        }
+    }
+}
