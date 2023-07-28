@@ -2,7 +2,7 @@
 @section('content')
         {{-- Section-about --}}
         <section class="s-about bg-main">
-            <div class="container section ">
+            <div class="container">
                <div class="about-inner ">
                 <div class="about-img">
                     <img src="{{
@@ -80,7 +80,7 @@
         </section>
         {{-- section service --}}
         <section class="s-service">
-            <div class="container section">
+            <div class="container">
                 <div class="service-inner">
                     <div class="section-header">
                         <div class="line"><hr></div>
@@ -133,7 +133,24 @@
                             <div class="line"><hr></div>
                             <h1>Project Terbaru Kami</h1>
                         </div>
-                        <div id="carousel-project" class="carousel slide">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide"><img src="{{
+                                    Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
+                              <div class="swiper-slide"><img src="{{
+                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
+                              <div class="swiper-slide"><img src="{{
+                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
+                              ...
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          </div>
+                        {{-- <div id="carousel-project" class="carousel slide">
                             <div class="carousel-inner">
                               <div class="carousel-item p-2 active">
                                 <img src="{{
@@ -178,21 +195,21 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> --}}
                 </div>
             </div>
-              <button class="carousel-prev" type="button" data-bs-target="#carousel-project" data-bs-slide="prev">
+              {{-- <button class="carousel-prev" type="button" data-bs-target="#carousel-project" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button class="carousel-next" type="button" data-bs-target="#carousel-project" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </button>
+              </button> --}}
         </section>
         {{-- section testimonial --}}
         <section class="s-testimonial">
-            <div class="container section">
+            <div class="container">
                 <div class="testimonial-inner">
                     <div class="testimonial-item">
                         <div class="section-header">
@@ -200,7 +217,7 @@
                             <p>Our Testimonials</p>
                             <h1>Yang Klien Kami katakan</h1>
                         </div>
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        {{-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <div class="testimonial-review-text">
@@ -238,26 +255,11 @@
 
                               </div>
                             </div>
-                        </div>
-                            {{-- <div class="testimonial-review-text">
-                                <p><img src="{{
-                                    Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
-                                <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
-                            </div>
-                            <div class="testimonial-review-company">
-                                <div class="testimonial-review-company-logo">
-                                    <img src="{{
-                                        Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
-                                </div>
-                                <div class="testimonial-review-company-name">
-                                    <h3>Chaim Desmond</h3>
-                                    <p>CEO of Yellow Hotel</p>
-                                </div>
-                            </div> --}}
+                        </div> --}}
                         </div>
 
                     <div class="testimonial-item-slide">
-                        <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
+                        {{-- <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item p-2 active">
                                 <img src="{{
@@ -282,7 +284,7 @@
                                     <span class="visually-hidden">Next</span>
                                   </button>
                             </div>
-                          </div>
+                          </div> --}}
                     </div>
                 </div>
             </div>
@@ -308,6 +310,20 @@
                 $('.footer-language-button').toggleClass("ani");
             });
           });
+        </script>
+        @endpush
+        @push('scripts')
+        <script>
+           const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
         </script>
         @endpush
 @endsection
