@@ -226,7 +226,7 @@
                             <p>Our Testimonials</p>
                             <h1>Yang Klien Kami katakan</h1>
                         </div>
-                        <div class="swiper">
+                        <div class="swiper" id="swiperTestimoniText">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                               <!-- Slides -->
@@ -324,7 +324,7 @@
                         </div> --}}
                         </div>
                     <div class="testimonial-item-slide">
-                        <div class="swiper">
+                        <div class="swiper" id="swiperTestimoniImage">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                               <!-- Slides -->
@@ -405,6 +405,18 @@
                 prevEl: '.swiper-button-prev',
             },
             });
+            const swiperTextimoniImage = new ('#swiperTestimoniImage',{
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            })
+            //slide testimoni slide
+            const swiperTextimoniText= new ('#swiperTestimoniText',{
+                allowTouchMove:false,
+                loop:true,
+                watchSlideProgress:true,
+            })
         </script>
         @endpush
 @endsection

@@ -877,12 +877,23 @@
         text-align: center;
         width: 100%;
       }
+      .swiper{
+        .swiper-slide{
+            img{
+                width: 1576px;
+                height: 506.7px;
+
+
+            }
+        }
+      }
     }}
     .s-testimonial{
         background-color:  #F7F8FD;;
         height: 666.7px;
         display: flex;
-        align-items: center;}
+        align-items: center;
+    }
 
 }
 @media screen and (min-width:1700px){
