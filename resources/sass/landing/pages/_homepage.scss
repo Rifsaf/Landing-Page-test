@@ -91,6 +91,15 @@
             letter-spacing: 0em;
             text-align: left;
             color: #333;
+            display: flex;
+            width: 404.7px;
+            height: 74px;
+            padding: 10px;
+            border-radius: 1000px;
+            background-color: $secondary-color;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
         }
     }
 }
@@ -287,15 +296,66 @@
         width: 100%;
       }
     }
-    .swipper{
-        height: 380px;
-        width: 1182px;
-    }
-
-    .carousel{
-        height: 370px;
+    .swiper{
+        height: 100%;
         width: 100%;
-        position: relative;
+        &-button-prev,&-button-next{
+            padding: 10.667px;
+            border-radius: 106.667px;
+            width: 96px;
+            height: 96px;
+            border: none;
+            background: $secondary-color;
+            color: #000;
+        }
+        &-wrapper{
+            .swiper-slide{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                // align-items: center;
+                img{
+                    width: 1182px;
+                    height: 380px;
+
+
+                }
+                .carousel-caption{
+                    position: absolute;
+                    color: #000;
+                    text-align: left;
+                    top: 101px;
+                    .carousel-page{
+                        color: #000;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 100%; /* 22px */
+                        letter-spacing: 0.66px;
+                    }
+                    h1{
+                        font-size: 53px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 100%; /* 53px */
+                        margin-top: 26px;
+
+                    }
+                    .carousel-des{
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 100%; /* 32px */
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // .carousel{
+    //     height: 370px;
+    //     width: 100%;
+    //     position: relative;
         // .carousel-inner{
         //     .carousel-item{
         //         .carousel-caption {
@@ -382,7 +442,7 @@
         //     .carousel-next{
         //         right:5% ;
         //     }
-        }}
+        }
 //testimonial
 
 .s-testimonial{
@@ -393,6 +453,9 @@
     .testimonial-inner{
         display: flex;
         justify-content: space-between;
+        .swiper{
+            width: 580px;
+        }
         .testimonial-slide{
             display: flex;
         }
@@ -441,14 +504,15 @@
 
         }
         .testimonial-item{
-            .carousel{
+            .swipper{
                 height:400px;
+
             }
         }
 
         .testimonial-item-slide{
             border-radius: 60px 0px 0px 60px;
-            .carousel{
+            .swiper{
                 width: 580px;
                 height: 571px;
                 position:absolute;

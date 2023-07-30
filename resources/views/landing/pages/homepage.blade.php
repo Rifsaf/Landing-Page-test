@@ -138,12 +138,21 @@
                             <div class="swiper-wrapper">
                               <!-- Slides -->
                               <div class="swiper-slide"><img src="{{
-                                    Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
+                                    Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
+                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                    <h1>Townhouse Oak</h1>
+                                    <p class="carousel-des">Brand tertinggi di OYO</p></div></div>
                               <div class="swiper-slide"><img src="{{
-                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
+                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
+                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                    <h1>Townhouse Oak</h1>
+                                    <p class="carousel-des">Brand tertinggi di OYO</p></div></div>
                               <div class="swiper-slide"><img src="{{
-                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""></div>
-                              ...
+                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
+                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                    <h1>Townhouse Oak</h1>
+                                    <p class="carousel-des">Brand tertinggi di OYO</p></div>
+                                </div>
                             </div>
 
                             <!-- If we need navigation buttons -->
@@ -217,6 +226,63 @@
                             <p>Our Testimonials</p>
                             <h1>Yang Klien Kami katakan</h1>
                         </div>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <div class="testimonial-review-text">
+                                    <p><img src="{{
+                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                                </div>
+                                <div class="testimonial-review-company">
+                                    <div class="testimonial-review-company-logo">
+                                        <img src="{{
+                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                    </div>
+                                    <div class="testimonial-review-company-name">
+                                        <h3>Chaim Desmond</h3>
+                                        <p>CEO of Yellow Hotel</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="testimonial-review-text">
+                                    <p><img src="{{
+                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                                </div>
+                                <div class="testimonial-review-company">
+                                    <div class="testimonial-review-company-logo">
+                                        <img src="{{
+                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                    </div>
+                                    <div class="testimonial-review-company-name">
+                                        <h3>Chaim Desmond</h3>
+                                        <p>CEO of Yellow Hotel</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="testimonial-review-text">
+                                    <p><img src="{{
+                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
+                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                                </div>
+                                <div class="testimonial-review-company">
+                                    <div class="testimonial-review-company-logo">
+                                        <img src="{{
+                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
+                                    </div>
+                                    <div class="testimonial-review-company-name">
+                                        <h3>Chaim Desmond</h3>
+                                        <p>CEO of Yellow Hotel</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         {{-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -257,8 +323,23 @@
                             </div>
                         </div> --}}
                         </div>
-
                     <div class="testimonial-item-slide">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide"><img src="{{
+                                Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="..."></div>
+                              <div class="swiper-slide"><img src="{{
+                                Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="..."></div>
+                              <div class="swiper-slide"><img src="{{
+                                Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="..."></div>
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          </div>
                         {{-- <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item p-2 active">
