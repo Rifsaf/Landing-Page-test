@@ -5,8 +5,9 @@
 
 // Global variables
 @import '/resources/sass/global/utilities/variables';
+@import '/resources/sass/global/utilities/base';
 @import 'resources/sass/global/components/button';
-@import '/resources/sass/landing/utilities/container';
+@import '/resources/sass/landing/utilities/responsive';
 @import 'resources/sass/global/components/input';
 //Layout
 @import '/resources/sass/landing/layout/navbar';

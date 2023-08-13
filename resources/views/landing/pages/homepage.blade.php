@@ -56,8 +56,8 @@
                                 <p class="workflow-item-des">Setiap property memiliki tantangan tersendiri dan GWA sangat memahami hal tersebut</p>
                             </div>
 
-                            <div class="workflow-item">
-                                <div class="workflow-item-icon bg-bblue third">
+                            <div class="workflow-item third">
+                                <div class="workflow-item-icon bg-bblue">
                                     <img class="bg-bblue" src="{{
                                         Vite::asset('resources\img\Sec-2 (3).png') }}" alt="">
                                 </div>
@@ -137,21 +137,35 @@
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                               <!-- Slides -->
-                              <div class="swiper-slide"><img src="{{
-                                    Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
-                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
-                                    <h1>Townhouse Oak</h1>
-                                    <p class="carousel-des">Brand tertinggi di OYO</p></div></div>
-                              <div class="swiper-slide"><img src="{{
-                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
-                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
-                                    <h1>Townhouse Oak</h1>
-                                    <p class="carousel-des">Brand tertinggi di OYO</p></div></div>
-                              <div class="swiper-slide"><img src="{{
-                                Vite::asset('resources/img/slide-sectiom.png') }}" alt=""><div class="carousel-caption">
-                                    <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
-                                    <h1>Townhouse Oak</h1>
-                                    <p class="carousel-des">Brand tertinggi di OYO</p></div>
+                              <div class="swiper-slide">
+                                <div class="card-project" >
+                                    <img src="{{
+                                        Vite::asset('resources/img/slide-sectiom.png') }}" alt="">
+                                        <div class="carousel-caption">
+                                        <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                        <h1>Townhouse Oak</h1>
+                                        <p class="carousel-des">Brand tertinggi di OYO</p></div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-project" >
+                                    <img src="{{
+                                        Vite::asset('resources/img/slide-sectiom.png') }}" alt="">
+                                        <div class="carousel-caption">
+                                        <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                        <h1>Townhouse Oak</h1>
+                                        <p class="carousel-des">Brand tertinggi di OYO</p></div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-project" >
+                                    <img src="{{
+                                        Vite::asset('resources/img/slide-sectiom.png') }}" alt="">
+                                        <div class="carousel-caption">
+                                        <p class="carousel-page">1/4 OPERATIONAL PROJECT</p>
+                                        <h1>Townhouse Oak</h1>
+                                        <p class="carousel-des">Brand tertinggi di OYO</p></div>
+                                </div>
                                 </div>
                             </div>
 
@@ -283,53 +297,26 @@
                               </div>
                             </div>
                           </div>
-                        {{-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="testimonial-review-text">
-                                    <p><img src="{{
-                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
-                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
-                                </div>
-                                <div class="testimonial-review-company">
-                                    <div class="testimonial-review-company-logo">
-                                        <img src="{{
-                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
-                                    </div>
-                                    <div class="testimonial-review-company-name">
-                                        <h3>Chaim Desmond</h3>
-                                        <p>CEO of Yellow Hotel</p>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="carousel-item ">
-                                <div class="testimonial-review-text">
-                                    <p><img src="{{
-                                        Vite::asset('resources/img/quote.png') }}" alt="quote-logo"></p>
-                                    <p>GWA Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
-                                </div>
-                                <div class="testimonial-review-company">
-                                    <div class="testimonial-review-company-logo">
-                                        <img src="{{
-                                            Vite::asset('resources/img/image-6.png') }}" alt="company-logo">
-                                    </div>
-                                    <div class="testimonial-review-company-name">
-                                        <h3>Chaim Desmond</h3>
-                                        <p>CEO of Yellow Hotel</p>
-                                    </div>
-                                </div>
-
-                              </div>
-                            </div>
-                        </div> --}}
                         </div>
                     <div class="testimonial-item-slide">
-                        <div class="swiper" id="swiperTestimoniImage">
+                        <div class="slide-holder">
+                            <button class="slide-prev" id="slideTestimoniImagePrev"> <img src="{{
+                                Vite::asset('resources/img/arrow-left.png') }}" alt="arrow"></button>
+                            <button class="slide-next" id="slideTestimoniImageNext">
+                                <img src="{{
+                                    Vite::asset('resources/img/arrow-left.png') }}" alt="arrow">
+                            </button>
+                        </div>
+                        <div class="swiper" id="slideTestimoniImage">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                               <!-- Slides -->
-                              <div class="swiper-slide"><img src="{{
-                                Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="..."></div>
+                              <div class="swiper-slide">
+                                <div class="card-testimoni">
+                                    <img src="{{
+                                        Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
                               <div class="swiper-slide"><img src="{{
                                 Vite::asset('resources/img/slide.png') }}" class="d-block w-100" alt="..."></div>
                               <div class="swiper-slide"><img src="{{
@@ -337,8 +324,8 @@
                             </div>
 
                             <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                            {{-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> --}}
                           </div>
                         {{-- <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -398,25 +385,35 @@
            const swiper = new Swiper('.swiper', {
             // Optional parameters
             loop: true,
-
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
             });
-            const swiperTextimoniImage = new ('#swiperTestimoniImage',{
-                navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            //slideimage
+            const swiper2 = new Swiper('#slideTestimoniImage', {
+            // Optional parameters
+            loop: true,
+            // Navigation arrows
+            navigation: {
+                nextEl: '#slideTestimoniImageNext',
+                prevEl: '#slideTestimoniImagePrev',
             },
-            })
-            //slide testimoni slide
-            const swiperTextimoniText= new ('#swiperTestimoniText',{
-                allowTouchMove:false,
-                loop:true,
-                watchSlideProgress:true,
-            })
+            });
+            // const swiperTextimoniImage = new Swiper('#swiperTestimoniImage',{
+            //     navigation: {
+            //     nextEl: '#swiperTestimoniImageNext',
+            //     prevEl: '#swiperTestimoniImagePrev',
+            // },
+            // });
+            //slide testimoni-text-slide
+            const swiperTestimoniText= new Swiper('#swiperTestimoniText',{
+                // allowTouchMove:false,
+                // loop:true,
+                noSwiping: true,
+                noSwipingClass: 'swiper-slide',
+            });
         </script>
         @endpush
 @endsection
